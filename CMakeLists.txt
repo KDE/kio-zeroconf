@@ -32,8 +32,7 @@ ecm_set_disabled_deprecation_versions(
 add_subdirectory(kioworker)
 add_subdirectory(kdedmodule)
 
-install(FILES org.kde.zeroconf-ioslave.metainfo.xml
-        DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(FILES org.kde.kio_zeroconf.metainfo.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 ki18n_install(po)
 
