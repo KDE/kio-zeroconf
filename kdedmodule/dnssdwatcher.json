@@ -104,10 +104,7 @@
         "Name[uk]": "Спостереження за службами DNS-SD",
         "Name[x-test]": "xxDNS-SD Service Discovery Monitorxx",
         "Name[zh_CN]": "DNS-SD 服务发现监视器",
-        "Name[zh_TW]": "DNS-SD 服務發現監控器",
-        "ServiceTypes": [
-            "KDEDModule"
-        ]
+        "Name[zh_TW]": "DNS-SD 服務發現監控器"
     },
     "X-KDE-Kded-autoload": true
 }
