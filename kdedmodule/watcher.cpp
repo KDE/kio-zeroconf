@@ -8,7 +8,6 @@
 
 // KF
 #include <KDirNotify>
-#include <KDNSSD/RemoteService>
 #include <KDNSSD/ServiceBrowser>
 #include <KDNSSD/ServiceTypeBrowser>
 // Qt
