@@ -1,0 +1,76 @@
+# Finnish messages for kio_zeroconf.
+# Copyright © 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdenetwork package.
+# Mikko Ikola <ikola@iki.fi>, 2005.
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
+# Tommi Nieminen <translator@legisign.org>, 2017.
+#
+# KDE Finnish translation sprint participants:
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2017-12-11 18:59+0200\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
+"Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-POT-Import-Date: 2012-12-01 22:24:36+0000\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "FTP-palvelimet"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "WebDav-etähakemisto"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Etälevyasema (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Etälevyasema (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "NFS-etähakemisto"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "Zeroconf-palvelin (mdnsd) ei ole käynnissä."
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "KDNSSD-kirjasto on käännetty ilman Zeroconf-tukea."
+
+#~ msgid "Protocol name"
+#~ msgstr "Yhteyskäytännön nimi"
+
+#~ msgid "Socket name"
+#~ msgstr "Pistokkeen nimi"
+
+#~ msgid "Requested service has been launched in separate window."
+#~ msgstr "Pyydetty palvelu käynnistettiin erilliseen ikkunaan."
+
+#~ msgid "invalid URL"
+#~ msgstr "Virheellinen verkko-osoite"
+
+#~ msgid "Unable to resolve service"
+#~ msgstr "Palvelua ei voida selvittää."
+
+#~ msgid "Invalid URL"
+#~ msgstr "Virheellinen verkko-osoite"

@@ -1,0 +1,72 @@
+# translation of kio_zeroconf.po to Hindi
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2007.
+# G Karunakar <karunakar@indlinux.org>, 2020.
+# Sameer Singh <lumarzeli30@gmail.com>, 2021.
+# Raghavendra Kamath <raghu@raghukamath.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2021-06-29 17:43+0530\n"
+"Last-Translator: Raghavendra Kamath <raghu@raghukamath.com>\n"
+"Language-Team: kde-hindi\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 21.04.2\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "एफ़टीपी सर्वर्स"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "वेबडैव दूरस्थ डिरेक्ट्री"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "दूरस्थ डिस्क (एसएफ़टीपी)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "दूरस्थ डिस्क (फ़िश)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "एनएफ़एस दूरस्थ डिरेक्ट्री"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "जीरोकॉन्फ़ डेमन (एमडीएनएसडी) चल नहीं रहा है।"
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "केडीएनएसएसडी संग्रह जीरोकॉन्फ़ समर्थन के बगैर बिल्ड किया गया ह।"
+
+#~ msgid "Protocol name"
+#~ msgstr "प्रोटोकाल नाम"
+
+#~ msgid "Socket name"
+#~ msgstr "सॉकेट नाम"
+
+#~ msgid "Requested service has been launched in separate window."
+#~ msgstr "निवेदित सेवा को अलग विंडो में लांच किया गया है."
+
+#~ msgid "invalid URL"
+#~ msgstr "अवैध यूआरएल"
+
+#~ msgid "Unable to resolve service"
+#~ msgstr "सेवा रीज़ॉल्व करने में अक्षम"

@@ -1,0 +1,63 @@
+# translation of kio_zeroconf.po to Arabic
+# translation of kio_zeroconf.po to
+# Language AR translations for PACKAGE package.
+# Automatically generated, 2007.
+# Youssef Chahibi <chahibi@gmail.com>, 2007.
+# Amine Roukh <amineroukh@gmail.com>, 2009.
+# zayed <zayed.alsaidi@gmail.com>, 2009, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2021-07-27 00:00+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Lokalize 21.07.70\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "خادم إف تي بي"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "مجلد WebDav التحكم"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "قرص التحكم (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "قرص التحكم (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "مجلد تحكم NFS"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "خدمة Zeroconf (mdnsd) لا تعمل"
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "مكتبة KDNSSD بنيت من دون دعم  Zeroconf"
+
+#~ msgid "Protocol name"
+#~ msgstr "اسم البروتوكول"
+
+#~ msgid "Socket name"
+#~ msgstr "اسم المقبس"

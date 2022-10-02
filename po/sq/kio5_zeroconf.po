@@ -1,0 +1,56 @@
+# Albanian translation for kdenetwork
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the kdenetwork package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenetwork\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2009-02-24 06:26+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2011-04-22 07:41+0000\n"
+"X-Generator: Launchpad (build 12883)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "Serverat FTP"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "WebDav direktori e largët"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Disk i Largët (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Disk i largët (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "Direktori e largët NFS"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "Zeroconf daemon (mdnsd) nuk është aktiv"
+
+#: dnssd.cpp:164
+#, fuzzy, kde-format
+#| msgid "KDE has been built without Zeroconf support."
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "KDE është ndërtuar pa mbështetje nga Zeroconf"

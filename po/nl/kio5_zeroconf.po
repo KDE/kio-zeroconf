@@ -1,0 +1,59 @@
+# translation of kio_zeroconf.po to Dutch
+#
+# Rinse de Vries <rinsedevries@kde.nl>, 2005, 2008.
+# Freek de Kruijf <freekdekruijf@kde.nl>, 2012, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2017-08-28 12:36+0100\n"
+"Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
+"Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "FTP-servers"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "Externe WebDav-map"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Externe schijf (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Externe schijf (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "Externe NFS-map"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "De Zeroconf-daemon (mdnsd) is niet actief."
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "Uw KDNSSD-bibliotheek is gebouwd zonder Zeroconf-ondersteuning."
+
+#~ msgid "Protocol name"
+#~ msgstr "Protocolnaam"
+
+#~ msgid "Socket name"
+#~ msgstr "Socket-naam"

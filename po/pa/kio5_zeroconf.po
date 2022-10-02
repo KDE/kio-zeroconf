@@ -1,0 +1,61 @@
+# translation of kio_zeroconf.po to Punjabi
+#
+# Amanpreet Singh Alam <aalam@redhat.com>, 2005.
+# Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
+# A S Alam <aalam@users.sf.net>, 2007, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2009-01-07 00:23+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi <punjabi-l10n@users.sf.net>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "FTP ਸਰਵਰ"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "WebDav ਰਿਮੋਟ ਡਾਇਰੈਕਟਰੀ"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "ਰਿਮੋਟ ਡਿਸਕ (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "ਰਿਮੋਟ ਡਿਸਕ (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "NFS ਰਿਮੋਟ ਡਾਇਰੈਕਟਰੀ"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "Zeroconf daemon (mdnsd) ਨਹੀਂ ਚੱਲ ਰਿਹਾ ਹੈ।"
+
+#: dnssd.cpp:164
+#, fuzzy, kde-format
+#| msgid "KDE has been built without Zeroconf support."
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "KDE ਨੂੰ ਬਿਨਾਂ Zeroconf ਸਹਿਯੋਗ ਦੇ ਬਣਾਇਆ ਗਿਆ ਹੈ।"
+
+#~ msgid "Protocol name"
+#~ msgstr "ਪਰੋਟੋਕਾਲ ਨਾਂ"
+
+#~ msgid "Socket name"
+#~ msgstr "ਸਾਕਟ ਨਾਂ"

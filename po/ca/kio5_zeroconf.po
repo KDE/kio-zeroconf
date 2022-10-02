@@ -1,0 +1,65 @@
+# Translation of kio5_zeroconf.po to Catalan
+# Copyright (C) 2005-2021 This_file_is_part_of_KDE
+# This file is distributed under the license LGPL version 2.1 or
+# version 3 or later versions approved by the membership of KDE e.V.
+#
+# Albert Astals Cid <aacid@kde.org>, 2005.
+# Josep M. Ferrer <txemaq@gmail.com>, 2007, 2008, 2016, 2021.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio-zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2021-09-05 12:09+0200\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 20.12.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Accelerator-Marker: &\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "Servidors FTP"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "Directori remot WebDav"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Disc remot (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Disc remot (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "Directori remot NFS"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "El dimoni Zeroconf (mdnsd) no s'està executant."
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr ""
+"La biblioteca KDNSSD ha estat compilada sense la implementació del Zeroconf."
+
+#~ msgid "Protocol name"
+#~ msgstr "Nom del protocol"
+
+#~ msgid "Socket name"
+#~ msgstr "Nom del sòcol"

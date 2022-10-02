@@ -1,0 +1,59 @@
+# Malayalam Translation of kio_zeroconf.pot
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kio_zeroconf package.
+# SANKARANARAYANAN |ശങ്കരനാരായണന്‍<snalledam@dataone.in>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2009-01-16 HO:MI+ZONE\n"
+"Last-Translator: SANKARANARAYANAN | ശങ്കരനാരായണന്‍<snalledam@dataone.in>\n"
+"Language-Team: SMC <smc.org.in>\n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "എഫ്‌ടി‌പി‌ സേവകര്‍"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "വെബ്ഡാവ് വിദൂര തട്ടു്"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "വിദൂര ഡിസ്ക് (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "വിദൂര ഡിസ്ക് (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "എന്‍‌എഫ്‌എസ്‌ വിദൂര തട്ടു്"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "സീറോകോണ്‍ഫ് സഹായി (mdnsd) ഓടുന്നില്ല"
+
+#: dnssd.cpp:164
+#, fuzzy, kde-format
+#| msgid "KDE has been built without Zeroconf support."
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "സീറോകോണ്‍ഫ് പിന്തുണ കൂടാതെ നിര്‍മ്മിയ്ക്കപ്പെട്ട കെഡി‌ഇ."
+
+#~ msgid "Protocol name"
+#~ msgstr "നിയമാവലി നാമം"
+
+#~ msgid "Socket name"
+#~ msgstr "സോക്കറ്റ് നാമം"

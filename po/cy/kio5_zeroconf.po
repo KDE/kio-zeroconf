@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: all2.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2004-09-20 15:44+0200\n"
+"Last-Translator: Thierry Vignaud <tvignaud@mandrakesoft.com>\n"
+"Language-Team: cy <LL@li.org>\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr ""
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr ""
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr ""
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr ""
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr ""
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr ""
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr ""
+
+#~ msgid "Protocol name"
+#~ msgstr "Enw protocol"
+
+#~ msgid "Socket name"
+#~ msgstr "Enw soced"
+
+#~ msgid "invalid URL"
+#~ msgstr "URL annilys"
+
+#~ msgid "Invalid URL"
+#~ msgstr "URL annilys"

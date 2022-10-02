@@ -1,0 +1,59 @@
+# translation of kio_zeroconf.po to Español
+# translation of kio_zeroconf.po to
+#
+# Jaime Robles <jaime@robles.nu>, 2005.
+# Matias Costa <mcc3@alu.um.es>, 2005.
+# Pablo de Vicente <p.devicente@oan.es>, 2005.
+# Israel Garcia <israelgarcia86@gmail.com>, 2008.
+# Ferro01 <ferro01@wanadoo.es>, 2011.
+# Rocio Gallego <traducciones@rociogallego.com>, 2011, 2012.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2017-09-30 22:22+0100\n"
+"Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
+"Language-Team: Spanish <kde-l10n-es@kde.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "Servidores FTP"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "Directorio remoto WebDav"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Disco remoto (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Disco remoto (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "Directorio remoto NFS"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "El demonio Zeroconf (mdnsd) no se está ejecutando."
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "La biblioteca KDNSSD se ha compilado sin soporte lógico de Zeroconf."

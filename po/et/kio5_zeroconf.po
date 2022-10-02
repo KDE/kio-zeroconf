@@ -1,0 +1,68 @@
+# translation of kio_dnssd.po to Estonian
+#
+# Hasso Tepper <hasso@kde.org>, 2005.
+# Marek Laane <bald@smail.ee>, 2007-2008, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_dnssd\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2019-11-09 14:05+0200\n"
+"Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
+"Language-Team: Estonian <kde-et@lists.linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 19.08.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "FTP-serverid"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "WebDavi võrgukataloog"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Võrguketas (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Võrguketas (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "NFS-i võrgukataloog"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "Zeroconfi deemon (mdnsd) pole käivitatud."
+
+#: dnssd.cpp:164
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "KDNSSD teek on ehitatud Zeroconfi toeta."
+
+#~ msgid "Protocol name"
+#~ msgstr "Protokolli nimi"
+
+#~ msgid "Socket name"
+#~ msgstr "Sokli nimi"
+
+#~ msgid "Requested service has been launched in separate window."
+#~ msgstr "Soovitud teenus käivitatakse eraldi aknas."
+
+#~ msgid "invalid URL"
+#~ msgstr "vigane URL"
+
+#~ msgid "Unable to resolve service"
+#~ msgstr "Teenuse lahendamine nurjus"

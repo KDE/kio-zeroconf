@@ -1,0 +1,73 @@
+# translation of kio_zeroconf.po to Kazakh
+#
+# Sairan Kikkarin <sairan@computer.org>, 2006.
+# Sairan Kikkarin <sairan@computer.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-09 00:45+0000\n"
+"PO-Revision-Date: 2010-06-20 08:15+0600\n"
+"Last-Translator: Sairan Kikkarin <sairan@computer.org>\n"
+"Language-Team: Kazakh <kde-i18n-doc@kde.org>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
+
+#: dnssd.cpp:49
+#, kde-format
+msgid "FTP servers"
+msgstr "FTP серверлері"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "Қашықтағы WebDav каталогы"
+
+#: dnssd.cpp:51
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "Қашықтағы (sftp) дискі"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "Қашықтағы (fish) дискі"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "Қашықтағы NFS каталогы"
+
+#: dnssd.cpp:161
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "Zeroconf қызметі (mdnsd) жегілмеген."
+
+#: dnssd.cpp:164
+#, fuzzy, kde-format
+#| msgid "KDE has been built without Zeroconf support."
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "KDE-ңіз Zeroconf қолдауысыз құрылып жинақталған."
+
+#~ msgid "Protocol name"
+#~ msgstr "Протоколдың атауы"
+
+#~ msgid "Socket name"
+#~ msgstr "Сокет атауы"
+
+#~ msgid "Requested service has been launched in separate window."
+#~ msgstr "Сұралған қызмет бөлек терезеде жегілді."
+
+#~ msgid "invalid URL"
+#~ msgstr "Жарамсыз URL"
+
+#~ msgid "Unable to resolve service"
+#~ msgstr "Қызмет танылмаған"
+
+#~ msgid "Invalid URL"
+#~ msgstr "Жарамсыз URL"
