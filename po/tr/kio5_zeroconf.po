@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenetwork-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-09 00:45+0000\n"
-"PO-Revision-Date: 2022-04-09 12:04+0300\n"
+"PO-Revision-Date: 2022-11-01 12:50+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 22.08.2\n"
 
 #: dnssd.cpp:49
 #, kde-format
@@ -54,4 +54,4 @@ msgstr "Zeroconf servisi (mdnsd) çalışmıyor."
 #: dnssd.cpp:164
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
-msgstr "KDNSSD kütüphanesi, Zeroconf desteği olmadan derlenmiş."
+msgstr "KDNSSD kitaplığı, Zeroconf desteği olmadan derlenmiş."
