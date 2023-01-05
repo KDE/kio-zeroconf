@@ -26,7 +26,7 @@ find_package(KF5 ${KF_MIN_VERSION} REQUIRED COMPONENTS DBusAddons DNSSD I18n KIO
 
 ecm_set_disabled_deprecation_versions(
     QT 5.15.2
-    KF 5.96
+    KF 5.102.0
 )
 
 add_subdirectory(kioworker)
