@@ -10,9 +10,9 @@ target_sources(kio_zeroconf PRIVATE
 )
 
 target_link_libraries(kio_zeroconf PRIVATE
-    KF5::DNSSD
-    KF5::I18n
-    KF5::KIOCore
+    KF${KF_MAJOR_VERSION}::DNSSD
+    KF${KF_MAJOR_VERSION}::I18n
+    KF${KF_MAJOR_VERSION}::KIOCore
 )
 
 install(TARGETS kio_zeroconf

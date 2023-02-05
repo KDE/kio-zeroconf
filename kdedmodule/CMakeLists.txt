@@ -16,9 +16,9 @@ target_sources(kded_dnssdwatcher PRIVATE
 )
 
 target_link_libraries(kded_dnssdwatcher PRIVATE
-    KF5::DBusAddons
-    KF5::KIOCore
-    KF5::DNSSD
+    KF${KF_MAJOR_VERSION}::DBusAddons
+    KF${KF_MAJOR_VERSION}::KIOCore
+    KF${KF_MAJOR_VERSION}::DNSSD
 )
 
 install(TARGETS kded_dnssdwatcher DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf${QT_MAJOR_VERSION}/kded)
