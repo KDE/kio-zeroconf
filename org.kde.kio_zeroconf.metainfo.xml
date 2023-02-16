@@ -120,7 +120,7 @@
     <p xml:lang="tr">Dolphin'in Ağ sayfasına yerel hizmetleri göstermek için bir girdi ekler; örneğin özünü DNSSD ile tanıtan yazıcılar gibi (diğer projeler tarafından Avahi veya Bonjour olarak adlandırılırlar).</p>
     <p xml:lang="uk">Додає на сторінку «Мережа» Dolphin пункт для показу служб локальної мережі, зокрема принтерів, які повідомляють про себе за допомогою DNSSD (системи, яка має назву Avahi або Bonjour у інших проєктах).</p>
     <p xml:lang="x-test">xxAdds an entry to Dolphin's Network page to show local services such as printers which advertise themselves with DNSSD (called Avahi or Bonjour by other projects).xx</p>
-    <p xml:lang="zh-CN">在 Dolphin 的网络页面添加新项，显示通过 DNSSD (在其他项目中叫做 Avahi 或 Bonjour) 广播的本地服务，比如打印机。</p>
+    <p xml:lang="zh-CN">添加一个新项目到 Dolphin 的网络页面，用于显示通过 DNSSD (在某些项目中叫做 Avahi 或者 Bonjour) 广播的本地服务，例如打印机。</p>
     <p xml:lang="zh-TW">在 Dolphin 的「網路」頁面新增用來顯示本機服務的項目，例如使用 DNSSD（又稱 Avahi 或 Bonjour）廣播自己的印表機</p>
   </description>
   <url type="homepage">https://www.kde.org/</url>
