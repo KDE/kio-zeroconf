@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-09 00:45+0000\n"
-"PO-Revision-Date: 2023-02-07 11:06\n"
+"PO-Revision-Date: 2023-02-15 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -45,7 +45,7 @@ msgstr "NFS 远程目录"
 #: dnssd.cpp:161
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
-msgstr "Zeroconf 守护程序 (mdnsd) 尚未运行。"
+msgstr "Zeroconf 守护程序 (mdnsd) 没有运行。"
 
 #: dnssd.cpp:164
 #, kde-format
