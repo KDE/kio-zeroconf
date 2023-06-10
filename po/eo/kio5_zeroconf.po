@@ -1,52 +1,54 @@
 # Translation of kio_zeroconf into esperanto.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the kio-zeroconf package.
 # Axel Rousseau <axel@esperanto-jeunes.org>, 2009.
+# Oliver Kellogg <okellogg@users.sourceforge.net>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-07-09 00:45+0000\n"
-"PO-Revision-Date: 2009-11-15 12:06+0100\n"
-"Last-Translator: Axel Rousseau <axel@esperanto-jeunes.org>\n"
+"PO-Revision-Date: 2023-06-09 20:56+0100\n"
+"Last-Translator: Oliver Kellogg <okellogg@users.sourceforge.net>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: pology\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: dnssd.cpp:49
 #, kde-format
 msgid "FTP servers"
-msgstr ""
+msgstr "FTP-serviloj"
 
 #: dnssd.cpp:50
 #, kde-format
 msgid "WebDav remote directory"
-msgstr ""
+msgstr "WebDav fora dosierujo"
 
 #: dnssd.cpp:51
 #, kde-format
 msgid "Remote disk (sftp)"
-msgstr ""
+msgstr "Fora disko (sftp)"
 
 #: dnssd.cpp:52
 #, kde-format
 msgid "Remote disk (fish)"
-msgstr ""
+msgstr "Fora disko (fish)"
 
 #: dnssd.cpp:53
 #, kde-format
 msgid "NFS remote directory"
-msgstr ""
+msgstr "NFS fora dosierujo"
 
 #: dnssd.cpp:161
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
-msgstr ""
+msgstr "Le Zeroconf-demono (mdnsd) ne estas rulanta."
 
 #: dnssd.cpp:164
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
-msgstr ""
+msgstr "La KDNSSD-biblioteko estis konstruita sen Zeroconf-subteno."
