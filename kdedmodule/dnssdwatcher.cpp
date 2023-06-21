@@ -93,3 +93,4 @@ DNSSDWatcher::~DNSSDWatcher()
 }
 
 #include <dnssdwatcher.moc>
+#include "moc_dnssdwatcher.cpp"

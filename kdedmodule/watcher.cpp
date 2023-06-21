@@ -67,3 +67,4 @@ void Watcher::finished()
 	updateNeeded=false;
 }
 
+#include "moc_watcher.cpp"

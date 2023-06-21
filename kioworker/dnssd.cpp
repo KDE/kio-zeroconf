@@ -290,3 +290,4 @@ extern "C" Q_DECL_EXPORT int kdemain( int argc, char **argv )
 }
 
 #include "dnssd.moc"
+#include "moc_dnssd.cpp"
