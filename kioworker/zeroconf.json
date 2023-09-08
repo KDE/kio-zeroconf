@@ -3,22 +3,22 @@
         "zeroconf": {
             "Class": ":internet",
             "Icon": "network-workgroup",
+            "deleting": false,
             "exec": "kf5/kio/zeroconf",
-            "protocol": "zeroconf",
             "input": "none",
-            "output": "filesystem",
-            "reading": true,
+            "linking": false,
             "listing": [
                 "Name",
                 "Link",
                 "Type"
             ],
-            "writing": false,
             "makedir": false,
-            "deleting": false,
-            "linking": false,
+            "maxInstances": "4",
             "moving": false,
-            "maxInstances": "4"
+            "output": "filesystem",
+            "protocol": "zeroconf",
+            "reading": true,
+            "writing": false
         }
     }
 }
