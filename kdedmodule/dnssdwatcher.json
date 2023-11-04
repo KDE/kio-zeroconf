@@ -51,7 +51,6 @@
         "Description[tr]": "Ağı DNS-SD hizmetleri için izler",
         "Description[ug]": "توردىكى DNS-SD مۇلازىمەتلىرىنى كۆزىتىدۇ",
         "Description[uk]": "Спостереження за службами DNS-SD мережі",
-        "Description[x-test]": "xxMonitors the network for DNS-SD servicesxx",
         "Description[zh_CN]": "监视网络中的 DNS-SD 服务",
         "Description[zh_TW]": "監控 DNS-SD 服務網路",
         "Name": "DNS-SD Service Discovery Monitor",
@@ -106,7 +105,6 @@
         "Name[tr]": "DNS-SD Hizmet Keşfi İzleyici",
         "Name[ug]": "DNS-SD مۇلازىمەت بايقىغۇچ كۆزەتكۈچى",
         "Name[uk]": "Спостереження за службами DNS-SD",
-        "Name[x-test]": "xxDNS-SD Service Discovery Monitorxx",
         "Name[zh_CN]": "DNS-SD 服务发现监视程序",
         "Name[zh_TW]": "DNS-SD 服務發現監控器"
     },
