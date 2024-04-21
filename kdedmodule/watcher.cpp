@@ -7,41 +7,39 @@
 #include "watcher.h"
 
 // KF
-#include <KDirNotify>
 #include <KDNSSD/ServiceBrowser>
 #include <KDNSSD/ServiceTypeBrowser>
+#include <KDirNotify>
 // Qt
 #include <QUrl>
 
-Watcher::Watcher() 
-	: refcount(1), updateNeeded(false)
+Watcher::Watcher()
+    : refcount(1)
+    , updateNeeded(false)
 {
 }
 
-ServiceWatcher::ServiceWatcher(const QString& type) : Watcher(), m_type(type)
+ServiceWatcher::ServiceWatcher(const QString &type)
+    : Watcher()
+    , m_type(type)
 {
-	browser = new KDNSSD::ServiceBrowser(type);
-	browser->setParent(this);
-	connect(browser, &KDNSSD::ServiceBrowser::serviceAdded,
-		this, &ServiceWatcher::scheduleUpdate);
-	connect(browser, &KDNSSD::ServiceBrowser::serviceRemoved,
-		this, &ServiceWatcher::scheduleUpdate);
-	connect(browser, &KDNSSD::ServiceBrowser::finished,
-		this, &ServiceWatcher::finished);
-	browser->startBrowse();
-	
+    browser = new KDNSSD::ServiceBrowser(type);
+    browser->setParent(this);
+    connect(browser, &KDNSSD::ServiceBrowser::serviceAdded, this, &ServiceWatcher::scheduleUpdate);
+    connect(browser, &KDNSSD::ServiceBrowser::serviceRemoved, this, &ServiceWatcher::scheduleUpdate);
+    connect(browser, &KDNSSD::ServiceBrowser::finished, this, &ServiceWatcher::finished);
+    browser->startBrowse();
 }
 
-TypeWatcher::TypeWatcher() : Watcher()
+TypeWatcher::TypeWatcher()
+    : Watcher()
 {
-	typebrowser = new KDNSSD::ServiceTypeBrowser();
-	typebrowser->setParent(this);
-	connect(typebrowser, &KDNSSD::ServiceTypeBrowser::serviceTypeAdded,
-		this, &TypeWatcher::scheduleUpdate);
-	connect(typebrowser, &KDNSSD::ServiceTypeBrowser::serviceTypeRemoved,
-		this, &TypeWatcher::scheduleUpdate);
-	connect(typebrowser, &KDNSSD::ServiceTypeBrowser::finished, this, &TypeWatcher::finished);
-	typebrowser->startBrowse();
+    typebrowser = new KDNSSD::ServiceTypeBrowser();
+    typebrowser->setParent(this);
+    connect(typebrowser, &KDNSSD::ServiceTypeBrowser::serviceTypeAdded, this, &TypeWatcher::scheduleUpdate);
+    connect(typebrowser, &KDNSSD::ServiceTypeBrowser::serviceTypeRemoved, this, &TypeWatcher::scheduleUpdate);
+    connect(typebrowser, &KDNSSD::ServiceTypeBrowser::finished, this, &TypeWatcher::finished);
+    typebrowser->startBrowse();
 }
 
 QUrl TypeWatcher::constructUrl() const
@@ -58,13 +56,14 @@ QUrl ServiceWatcher::constructUrl() const
 
 void Watcher::scheduleUpdate()
 {
-	updateNeeded=true;
+    updateNeeded = true;
 }
 
-void Watcher::finished() 
+void Watcher::finished()
 {
-	if (updateNeeded) org::kde::KDirNotify::emitFilesAdded( constructUrl() );
-	updateNeeded=false;
+    if (updateNeeded)
+        org::kde::KDirNotify::emitFilesAdded(constructUrl());
+    updateNeeded = false;
 }
 
 #include "moc_watcher.cpp"

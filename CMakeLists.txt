@@ -16,6 +16,8 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 include(KDEInstallDirs)
 include(KDECompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
+include(KDEClangFormat)
+include(KDEGitCommitHooks)
 
 include(ECMDeprecationSettings)
 if (QT_MAJOR_VERSION STREQUAL "6")
@@ -44,3 +46,8 @@ install(FILES org.kde.kio_zeroconf.metainfo.xml DESTINATION ${KDE_INSTALL_METAIN
 ki18n_install(po)
 
 feature_summary(WHAT ALL   FATAL_ON_MISSING_REQUIRED_PACKAGES)
+
+file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})
+
+kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)

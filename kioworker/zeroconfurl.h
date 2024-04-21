@@ -12,54 +12,60 @@
 // Qt
 #include <QUrl>
 
-
 // URL zeroconf:/_http._tcp/some%20service
 class ZeroConfUrl
 {
-  public:
+public:
     enum Type { InvalidUrl, RootDir, ServiceDir, Service };
 
-  public:
-    explicit ZeroConfUrl( const QUrl& url );
+public:
+    explicit ZeroConfUrl(const QUrl &url);
 
-  public:
-    const QString& serviceType() const;
-    const QString& serviceName() const;
-    const QString& domain() const;
-    bool matches( const RemoteService* remoteService ) const;
+public:
+    const QString &serviceType() const;
+    const QString &serviceName() const;
+    const QString &domain() const;
+    bool matches(const RemoteService *remoteService) const;
     ZeroConfUrl::Type type() const;
 
-  private:
+private:
     QString mServiceType;
     QString mServiceName;
     QString mDomain;
 };
 
-
-inline ZeroConfUrl::ZeroConfUrl( const QUrl& url )
+inline ZeroConfUrl::ZeroConfUrl(const QUrl &url)
 {
-    mServiceType = url.path().section(QChar::fromLatin1('/'),1,1);
-    mServiceName = url.path().section(QChar::fromLatin1('/'),2,-1);
+    mServiceType = url.path().section(QChar::fromLatin1('/'), 1, 1);
+    mServiceName = url.path().section(QChar::fromLatin1('/'), 2, -1);
     mDomain = url.host();
 }
 
-inline const QString& ZeroConfUrl::serviceType() const { return mServiceType; }
-inline const QString& ZeroConfUrl::serviceName() const { return mServiceName; }
-inline const QString& ZeroConfUrl::domain() const { return mDomain; }
-
-inline bool ZeroConfUrl::matches( const RemoteService* remoteService ) const
+inline const QString &ZeroConfUrl::serviceType() const
 {
-    return ( remoteService->serviceName()==mServiceName && remoteService->type()==mServiceType 
-        && remoteService->domain()==mDomain);
+    return mServiceType;
+}
+inline const QString &ZeroConfUrl::serviceName() const
+{
+    return mServiceName;
+}
+inline const QString &ZeroConfUrl::domain() const
+{
+    return mDomain;
+}
+
+inline bool ZeroConfUrl::matches(const RemoteService *remoteService) const
+{
+    return (remoteService->serviceName() == mServiceName && remoteService->type() == mServiceType && remoteService->domain() == mDomain);
 }
 
 // TODO: how is a invalid url defined?
 inline ZeroConfUrl::Type ZeroConfUrl::type() const
 {
-    Type result =
-        mServiceType.isEmpty() ? RootDir :
-        mServiceName.isEmpty() ? ServiceDir :
-        /*else*/                 Service;
+    Type result = mServiceType.isEmpty() ? RootDir
+        : mServiceName.isEmpty()         ? ServiceDir
+                                         :
+                                 /*else*/ Service;
 
     return result;
 }

@@ -11,50 +11,56 @@
 
 class QString;
 
-namespace KDNSSD {
-    class ServiceBrowser;
-    class ServiceTypeBrowser;
+namespace KDNSSD
+{
+class ServiceBrowser;
+class ServiceTypeBrowser;
 }
 
 class Watcher : public QObject
 {
-Q_OBJECT
+    Q_OBJECT
 public:
-	Watcher();
-		
-	unsigned int refcount;
+    Watcher();
+
+    unsigned int refcount;
+
 protected:
-	virtual QUrl constructUrl() const = 0;
+    virtual QUrl constructUrl() const = 0;
 
 protected Q_SLOTS:
-	void scheduleUpdate();
-	void finished();
+    void scheduleUpdate();
+    void finished();
 
 private:
-	bool updateNeeded;
+    bool updateNeeded;
 };
 
 class TypeWatcher : public Watcher
 {
-Q_OBJECT
+    Q_OBJECT
 public:
-	TypeWatcher();
+    TypeWatcher();
+
 protected:
-	QUrl constructUrl() const Q_DECL_OVERRIDE;
+    QUrl constructUrl() const Q_DECL_OVERRIDE;
+
 private:
-	KDNSSD::ServiceTypeBrowser* typebrowser;
+    KDNSSD::ServiceTypeBrowser *typebrowser;
 };
 
 class ServiceWatcher : public Watcher
 {
-Q_OBJECT
+    Q_OBJECT
 public:
-	explicit ServiceWatcher(const QString& type);
+    explicit ServiceWatcher(const QString &type);
+
 protected:
-	QUrl constructUrl() const Q_DECL_OVERRIDE;
+    QUrl constructUrl() const Q_DECL_OVERRIDE;
+
 private:
-	KDNSSD::ServiceBrowser* browser;
-	QString m_type;
+    KDNSSD::ServiceBrowser *browser;
+    QString m_type;
 };
 
 #endif
