@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf.po\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
 "PO-Revision-Date: 2007-06-15 22:52+0930\n"
 "Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.6.3b1\n"
 
-#: dnssd.cpp:49
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr ""
 
-#: dnssd.cpp:50
+#: dnssd.cpp:48
 #, kde-format
 msgid "WebDav remote directory"
 msgstr ""
 
-#: dnssd.cpp:51
+#: dnssd.cpp:50
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr ""
@@ -42,12 +42,12 @@ msgstr ""
 msgid "NFS remote directory"
 msgstr ""
 
-#: dnssd.cpp:161
+#: dnssd.cpp:151
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Trình nền Zeroconf (mdnsd) không đang chạy."
 
-#: dnssd.cpp:164
+#: dnssd.cpp:153
 #, fuzzy, kde-format
 #| msgid "KDE has been built without Zeroconf support."
 msgid "The KDNSSD library has been built without Zeroconf support."

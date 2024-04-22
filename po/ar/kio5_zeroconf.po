@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
 "PO-Revision-Date: 2021-07-27 00:00+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
@@ -21,17 +21,17 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Lokalize 21.07.70\n"
 
-#: dnssd.cpp:49
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr "خادم إف تي بي"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:48
 #, kde-format
 msgid "WebDav remote directory"
 msgstr "مجلد WebDav التحكم"
 
-#: dnssd.cpp:51
+#: dnssd.cpp:50
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "قرص التحكم (sftp)"
@@ -46,12 +46,12 @@ msgstr "قرص التحكم (fish)"
 msgid "NFS remote directory"
 msgstr "مجلد تحكم NFS"
 
-#: dnssd.cpp:161
+#: dnssd.cpp:151
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "خدمة Zeroconf (mdnsd) لا تعمل"
 
-#: dnssd.cpp:164
+#: dnssd.cpp:153
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "مكتبة KDNSSD بنيت من دون دعم  Zeroconf"

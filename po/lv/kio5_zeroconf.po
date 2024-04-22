@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
 "PO-Revision-Date: 2008-05-09 15:56+0300\n"
 "Last-Translator: Viesturs Zarins <viesturs.zarins@mii.lu.lv>\n"
 "Language-Team: Latvian <locale@laka.lv>\n"
@@ -20,17 +20,17 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: dnssd.cpp:49
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr "FTP serveri"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:48
 #, kde-format
 msgid "WebDav remote directory"
 msgstr "WebDav attālināta mape"
 
-#: dnssd.cpp:51
+#: dnssd.cpp:50
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Attālināts disks (sftp)"
@@ -45,12 +45,12 @@ msgstr "Attālināts disks (fish)"
 msgid "NFS remote directory"
 msgstr "NFS attālināta mape"
 
-#: dnssd.cpp:161
+#: dnssd.cpp:151
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Zeroconf dēmons (mdnsd) nedarbojas."
 
-#: dnssd.cpp:164
+#: dnssd.cpp:153
 #, fuzzy, kde-format
 #| msgid "KDE has been built without Zeroconf support."
 msgid "The KDNSSD library has been built without Zeroconf support."

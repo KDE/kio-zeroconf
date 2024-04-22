@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
 "PO-Revision-Date: 2017-08-28 11:32+0100\n"
 "Last-Translator: Jos Nuno Coelho Sanarra Pires <jncp@rnl.ist.utl.pt>\n"
 "Language-Team: Portuguese <kde@poli.org>\n"
@@ -13,17 +13,17 @@ msgstr ""
 "X-POFile-SpellExtra: Zeroconf mdnsd Fish WebDav SFTP KDNSSD\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: dnssd.cpp:49
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr "Servidores de FTP"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:48
 #, kde-format
 msgid "WebDav remote directory"
 msgstr "Pasta remota de WebDav"
 
-#: dnssd.cpp:51
+#: dnssd.cpp:50
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Disco remoto (SFTP)"
@@ -38,12 +38,12 @@ msgstr "Disco remoto (Fish)"
 msgid "NFS remote directory"
 msgstr "Pasta remota de NFS"
 
-#: dnssd.cpp:161
+#: dnssd.cpp:151
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "O servidor Zeroconf (mdnsd) não está a correr."
 
-#: dnssd.cpp:164
+#: dnssd.cpp:153
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "A biblioteca KDNSSD foi compilada sem suporte para o Zeroconf."

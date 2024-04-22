@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: zeroconf-ioslave\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
 "PO-Revision-Date: 2022-03-15 22:36+0700\n"
 "Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 21.12.3\n"
 
-#: dnssd.cpp:49
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr "Server FTP"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:48
 #, kde-format
 msgid "WebDav remote directory"
 msgstr "Direktori jarak jauh WebDav"
 
-#: dnssd.cpp:51
+#: dnssd.cpp:50
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Disk jarak jauh (sftp)"
@@ -42,12 +42,12 @@ msgstr "Disk jarak jauh (fish)"
 msgid "NFS remote directory"
 msgstr "Direktori jarak jauh NFS"
 
-#: dnssd.cpp:161
+#: dnssd.cpp:151
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Daemon Zeroconf (mdnsd) tidaklah berjalan."
 
-#: dnssd.cpp:164
+#: dnssd.cpp:153
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "Pustaka lib KDNSSD telah dibikin tanpa dukungan Zeroconf."
