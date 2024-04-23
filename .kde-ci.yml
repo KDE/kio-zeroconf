@@ -17,3 +17,6 @@ Dependencies:
     'frameworks/kdnssd': '@stable'
     'frameworks/kdbusaddons': '@stable'
     'frameworks/kio': '@stable'
+
+Options:
+  require-passing-tests-on: ['Linux', 'FreeBSD', 'Windows']
