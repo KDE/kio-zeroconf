@@ -1,0 +1,53 @@
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the kio-zeroconf package.
+#
+# SPDX-FileCopyrightText: 2024 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kio-zeroconf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 01:54+0000\n"
+"PO-Revision-Date: 2024-05-29 08:50+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 24.02.2\n"
+
+#: dnssd.cpp:47
+#, kde-format
+msgid "FTP servers"
+msgstr "שרתי FTP"
+
+#: dnssd.cpp:48
+#, kde-format
+msgid "WebDav remote directory"
+msgstr "תיקיית WebDAV מרוחקת"
+
+#: dnssd.cpp:50
+#, kde-format
+msgid "Remote disk (sftp)"
+msgstr "כונן מרוחק (sftp)"
+
+#: dnssd.cpp:52
+#, kde-format
+msgid "Remote disk (fish)"
+msgstr "כונן מרוחק (fish)"
+
+#: dnssd.cpp:53
+#, kde-format
+msgid "NFS remote directory"
+msgstr "תיקיית NFS מרוחקת"
+
+#: dnssd.cpp:151
+#, kde-format
+msgid "The Zeroconf daemon (mdnsd) is not running."
+msgstr "סוכן Zeroconf‏ (mdnsd) לא פעיל."
+
+#: dnssd.cpp:153
+#, kde-format
+msgid "The KDNSSD library has been built without Zeroconf support."
+msgstr "ספריית KDNSSD נבנתה בלי תמיכה ב־Zeroconf."
