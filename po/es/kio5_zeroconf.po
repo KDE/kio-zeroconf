@@ -1,19 +1,20 @@
-# translation of kio_zeroconf.po to Español
-# translation of kio_zeroconf.po to
+# Spanish translations for kio5_zeroconf.po package.
+# Copyright (C) 2005-2025 This file is copyright:
+# This file is distributed under the same license as the kio-zeroconf package.
 #
-# Jaime Robles <jaime@robles.nu>, 2005.
-# Matias Costa <mcc3@alu.um.es>, 2005.
-# Pablo de Vicente <p.devicente@oan.es>, 2005.
-# Israel Garcia <israelgarcia86@gmail.com>, 2008.
-# Ferro01 <ferro01@wanadoo.es>, 2011.
-# Rocio Gallego <traducciones@rociogallego.com>, 2011, 2012.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2017.
+# SPDX-FileCopyrightText: 2005 Jaime Robles <jaime@robles.nu>
+# SPDX-FileCopyrightText: 2005 Matias Costa <mcc3@alu.um.es>
+# SPDX-FileCopyrightText: 2005 Pablo de Vicente <p.devicente@oan.es>
+# SPDX-FileCopyrightText: 2008 Israel Garcia <israelgarcia86@gmail.com>
+# SPDX-FileCopyrightText: 2011 Ferro01 <ferro01@wanadoo.es>
+# SPDX-FileCopyrightText: 2011, 2012 Rocio Gallego <traducciones@rociogallego.com>
+# SPDX-FileCopyrightText: 2017, 2025 Eloy Cuadra <ecuadra@eloihr.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: kio_zeroconf\n"
+"Project-Id-Version: kio5_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-04-22 01:54+0000\n"
-"PO-Revision-Date: 2017-09-30 22:22+0100\n"
+"PO-Revision-Date: 2025-06-10 01:01+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
