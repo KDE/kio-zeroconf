@@ -45,7 +45,8 @@ ZeroConfProtocol::ZeroConfProtocol(const QByteArray &protocol, const QByteArray 
 {
     knownProtocols[QStringLiteral("_ftp._tcp")] =
         ProtocolData(i18n("FTP servers"), QStringLiteral("ftp"), QStringLiteral("path"), QStringLiteral("u"), QStringLiteral("p"));
-    knownProtocols[QStringLiteral("_webdav._tcp")] = ProtocolData(i18n("WebDAV remote directory"), QStringLiteral("webdav"), QStringLiteral("path"));
+    knownProtocols[QStringLiteral("_webdav._tcp")] =
+        ProtocolData(i18n("WebDAV remote directory"), QStringLiteral("webdav"), QStringLiteral("path"), QStringLiteral("u"), QStringLiteral("p"));
     knownProtocols[QStringLiteral("_webdavs._tcp")] =
         ProtocolData(i18n("WebDAVS remote directory"), QStringLiteral("webdavs"), QStringLiteral("path"), QStringLiteral("u"), QStringLiteral("p"));
     knownProtocols[QStringLiteral("_sftp-ssh._tcp")] =
