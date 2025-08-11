@@ -7,7 +7,7 @@
   <extends>org.kde.konqueror.desktop</extends>
   <extends>org.kde.krusader.desktop</extends>
   <name>Zeroconf Support</name>
-  <name xml:lang="ar">دعم التكوين الصفري</name>
+  <name xml:lang="ar">دعم الضبط الصفري</name>
   <name xml:lang="be">Падтрымка zeroconf</name>
   <name xml:lang="bg">Поддръжка на Zeroconf</name>
   <name xml:lang="ca">Suport de Zeroconf</name>
