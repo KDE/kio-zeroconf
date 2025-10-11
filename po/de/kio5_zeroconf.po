@@ -1,5 +1,5 @@
-# Thomas Reitelbach <tr@erdfunkstelle.de>, 2005, 2007, 2008.
-# Burkhard Lück <lueck@hube-lueck.de>, 2017.
+# SPDX-FileCopyrightText: 2005, 2007, 2008 Thomas Reitelbach <tr@erdfunkstelle.de>
+# SPDX-FileCopyrightText: 2017 Burkhard Lück <lueck@hube-lueck.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio5_zeroconf\n"
