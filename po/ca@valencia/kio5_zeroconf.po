@@ -3,9 +3,9 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Albert Astals Cid <aacid@kde.org>, 2005.
-# Josep M. Ferrer <txemaq@gmail.com>, 2007, 2008, 2016, 2021.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2017.
+# SPDX-FileCopyrightText: 2005 Albert Astals Cid <aacid@kde.org>
+# SPDX-FileCopyrightText: 2007, 2008, 2016, 2021 Josep M. Ferrer <txemaq@gmail.com>
+# SPDX-FileCopyrightText: 2017 Antoni Bella Pérez <antonibella5@yahoo.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio-zeroconf\n"
