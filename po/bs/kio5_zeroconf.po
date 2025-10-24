@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenetwork\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-22 01:54+0000\n"
+"POT-Creation-Date: 2025-10-24 01:59+0000\n"
 "PO-Revision-Date: 2012-09-03 15:04+0000\n"
 "Last-Translator: Samir Ribić <Unknown>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -25,32 +25,39 @@ msgstr ""
 msgid "FTP servers"
 msgstr "FTP serveri"
 
-#: dnssd.cpp:48
-#, kde-format
-msgid "WebDav remote directory"
+#: dnssd.cpp:49
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAV remote directory"
 msgstr "Udaljeni webDAV direktorij"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:51
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAVS remote directory"
+msgstr "Udaljeni webDAV direktorij"
+
+#: dnssd.cpp:53
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Udaljeni disk (SFTP)"
 
-#: dnssd.cpp:52
+#: dnssd.cpp:55
 #, kde-format
 msgid "Remote disk (fish)"
 msgstr "Udaljeni disk (FISH)"
 
-#: dnssd.cpp:53
+#: dnssd.cpp:56
 #, kde-format
 msgid "NFS remote directory"
 msgstr "Udaljeni NFS direktorij"
 
-#: dnssd.cpp:151
+#: dnssd.cpp:154
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Demon ZeroConfa (mdnsd) nije pokrenut."
 
-#: dnssd.cpp:153
+#: dnssd.cpp:156
 #, fuzzy, kde-format
 #| msgid "KDE has been built without Zeroconf support."
 msgid "The KDNSSD library has been built without Zeroconf support."

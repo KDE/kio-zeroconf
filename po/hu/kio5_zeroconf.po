@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 4.1\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-22 01:54+0000\n"
+"POT-Creation-Date: 2025-10-24 01:59+0000\n"
 "PO-Revision-Date: 2020-11-06 11:10+0100\n"
 "Last-Translator: Kristóf Kiszel <kiszel.kristof@gmail.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -21,32 +21,39 @@ msgstr ""
 msgid "FTP servers"
 msgstr "FTP-kiszolgálók"
 
-#: dnssd.cpp:48
-#, kde-format
-msgid "WebDav remote directory"
+#: dnssd.cpp:49
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAV remote directory"
 msgstr "WebDav távoli könyvtár"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:51
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAVS remote directory"
+msgstr "WebDav távoli könyvtár"
+
+#: dnssd.cpp:53
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Távoli lemez (SFTP)"
 
-#: dnssd.cpp:52
+#: dnssd.cpp:55
 #, kde-format
 msgid "Remote disk (fish)"
 msgstr "Távoli lemez (fish)"
 
-#: dnssd.cpp:53
+#: dnssd.cpp:56
 #, kde-format
 msgid "NFS remote directory"
 msgstr "NFS távoli könyvtár"
 
-#: dnssd.cpp:151
+#: dnssd.cpp:154
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "A Zeroconf szolgáltatás (mdnsd) nem fut."
 
-#: dnssd.cpp:153
+#: dnssd.cpp:156
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "A KDNSSD Zeroconf-támogatás nélkül lett lefordítva."

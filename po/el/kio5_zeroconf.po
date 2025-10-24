@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-04-22 01:54+0000\n"
+"POT-Creation-Date: 2025-10-24 01:59+0000\n"
 "PO-Revision-Date: 2017-09-15 18:10+0200\n"
 "Last-Translator: Stelios <sstavra@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -24,32 +24,39 @@ msgstr ""
 msgid "FTP servers"
 msgstr "Εξυπηρετητές FTP"
 
-#: dnssd.cpp:48
-#, kde-format
-msgid "WebDav remote directory"
+#: dnssd.cpp:49
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAV remote directory"
 msgstr "Απομακρυσμένος κατάλογος WebDav"
 
-#: dnssd.cpp:50
+#: dnssd.cpp:51
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAVS remote directory"
+msgstr "Απομακρυσμένος κατάλογος WebDav"
+
+#: dnssd.cpp:53
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Απομακρυσμένος δίσκος (sftp)"
 
-#: dnssd.cpp:52
+#: dnssd.cpp:55
 #, kde-format
 msgid "Remote disk (fish)"
 msgstr "Απομακρυσμένος δίσκος (fish)"
 
-#: dnssd.cpp:53
+#: dnssd.cpp:56
 #, kde-format
 msgid "NFS remote directory"
 msgstr "Απομακρυσμένος κατάλογος NFS"
 
-#: dnssd.cpp:151
+#: dnssd.cpp:154
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Ο δαίμονας Zeroconf (mdnsd) δεν εκτελείται."
 
-#: dnssd.cpp:153
+#: dnssd.cpp:156
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "Η βιβλιοθήκη KDNSSD χτίστηκε χωρίς την υποστήριξη του Zeroconf."
