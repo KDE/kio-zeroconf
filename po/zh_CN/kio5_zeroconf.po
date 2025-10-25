@@ -23,16 +23,14 @@ msgid "FTP servers"
 msgstr "FTP 服务器"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "WebDav 远程目录"
+msgstr ""
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "WebDav 远程目录"
+msgstr ""
 
 #: dnssd.cpp:53
 #, kde-format
