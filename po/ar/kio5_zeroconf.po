@@ -2,15 +2,15 @@
 # translation of kio_zeroconf.po to
 # Language AR translations for PACKAGE package.
 # Automatically generated, 2007.
+# SPDX-FileCopyrightText: 2009, 2021, 2025 zayed <zayed.alsaidi@gmail.com>
 # Youssef Chahibi <chahibi@gmail.com>, 2007.
 # Amine Roukh <amineroukh@gmail.com>, 2009.
-# zayed <zayed.alsaidi@gmail.com>, 2009, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-24 01:59+0000\n"
-"PO-Revision-Date: 2021-07-27 00:00+0400\n"
+"PO-Revision-Date: 2025-10-25 16:51+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #: dnssd.cpp:47
 #, kde-format
@@ -26,16 +27,14 @@ msgid "FTP servers"
 msgstr "خادم إف تي بي"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "مجلد WebDav التحكم"
+msgstr "دليل WebDav البعيد"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "مجلد WebDav التحكم"
+msgstr "دليل WebDav البعيد"
 
 #: dnssd.cpp:53
 #, kde-format
