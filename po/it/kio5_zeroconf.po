@@ -1,13 +1,13 @@
 # translation of kio_zeroconf.po to Italian
 #
+# SPDX-FileCopyrightText: 2017, 2025 Luigi Toscano <luigi.toscano@tiscali.it>
 # Alessandro Astarita <aleast@capri.it>, 2005.
-# Luigi Toscano <luigi.toscano@tiscali.it>, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-10-24 01:59+0000\n"
-"PO-Revision-Date: 2017-08-28 21:57+0100\n"
+"PO-Revision-Date: 2025-10-27 16:50+0100\n"
 "Last-Translator: Luigi Toscano <luigi.toscano@tiscali.it>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: dnssd.cpp:47
 #, kde-format
@@ -23,16 +23,14 @@ msgid "FTP servers"
 msgstr "Server FTP"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "Directory remota LDAP"
+msgstr "Directory remota WebDAV"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "Directory remota LDAP"
+msgstr "Directory remota WebDAVS"
 
 #: dnssd.cpp:53
 #, kde-format
