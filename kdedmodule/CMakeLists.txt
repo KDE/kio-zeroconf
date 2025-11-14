@@ -16,12 +16,12 @@ target_sources(kded_dnssdwatcher PRIVATE
 )
 
 target_link_libraries(kded_dnssdwatcher PRIVATE
-    KF${KF_MAJOR_VERSION}::DBusAddons
-    KF${KF_MAJOR_VERSION}::KIOCore
-    KF${KF_MAJOR_VERSION}::DNSSD
+    KF6::DBusAddons
+    KF6::KIOCore
+    KF6::DNSSD
 )
 
-install(TARGETS kded_dnssdwatcher DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf${QT_MAJOR_VERSION}/kded)
+install(TARGETS kded_dnssdwatcher DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf6/kded)
 
 install(FILES org.kde.kdnssd.xml
         DESTINATION ${KDE_INSTALL_DBUSINTERFACEDIR})

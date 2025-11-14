@@ -10,13 +10,5 @@ Dependencies:
     'frameworks/kdbusaddons': '@latest-kf6'
     'frameworks/kio': '@latest-kf6'
 
-- 'on': ['Linux/Qt5', 'FreeBSD/Qt5']
-  'require':
-    'frameworks/extra-cmake-modules': '@stable'
-    'frameworks/ki18n': '@stable'
-    'frameworks/kdnssd': '@stable'
-    'frameworks/kdbusaddons': '@stable'
-    'frameworks/kio': '@stable'
-
 Options:
   require-passing-tests-on: ['Linux', 'FreeBSD', 'Windows']

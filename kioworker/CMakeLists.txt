@@ -10,13 +10,13 @@ target_sources(kio_zeroconf PRIVATE
 )
 
 target_link_libraries(kio_zeroconf PRIVATE
-    KF${KF_MAJOR_VERSION}::DNSSD
-    KF${KF_MAJOR_VERSION}::I18n
-    KF${KF_MAJOR_VERSION}::KIOCore
+    KF6::DNSSD
+    KF6::I18n
+    KF6::KIOCore
 )
 
 install(TARGETS kio_zeroconf
-        DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf${QT_MAJOR_VERSION}/kio)
+        DESTINATION ${KDE_INSTALL_PLUGINDIR}/kf6/kio)
 
 install(FILES zeroconf.desktop
         DESTINATION ${KDE_INSTALL_DATADIR}/remoteview)
