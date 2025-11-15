@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio5_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:11+0200\n"
+"POT-Creation-Date: 2025-11-15 00:41+0000\n"
 "PO-Revision-Date: 2017-09-03 11:58+0200\n"
 "Last-Translator: Chusslove Illich <caslav.ilic@gmx.net>\n"
 "Language-Team: Serbian <kde-i18n-sr@kde.org>\n"
@@ -20,37 +20,44 @@ msgstr ""
 "X-Text-Markup: kde4\n"
 "X-Environment: kde\n"
 
-#: dnssd.cpp:63
+#: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
 msgstr "ФТП сервери"
 
-#: dnssd.cpp:64
-#, kde-format
-msgid "WebDav remote directory"
+#: dnssd.cpp:49
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAV remote directory"
 msgstr "Удаљена вебДАВ фасцикла"
 
-#: dnssd.cpp:65
+#: dnssd.cpp:51
+#, fuzzy, kde-format
+#| msgid "WebDav remote directory"
+msgid "WebDAVS remote directory"
+msgstr "Удаљена вебДАВ фасцикла"
+
+#: dnssd.cpp:53
 #, kde-format
 msgid "Remote disk (sftp)"
 msgstr "Удаљени диск (СФТП)"
 
-#: dnssd.cpp:66
+#: dnssd.cpp:55
 #, kde-format
 msgid "Remote disk (fish)"
 msgstr "Удаљени диск (ФИСХ)"
 
-#: dnssd.cpp:67
+#: dnssd.cpp:56
 #, kde-format
 msgid "NFS remote directory"
 msgstr "Удаљена НФС фасцикла"
 
-#: dnssd.cpp:169
+#: dnssd.cpp:154
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
 msgstr "Демон зироконфа (mdnsd) није покренут."
 
-#: dnssd.cpp:174
+#: dnssd.cpp:156
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr "Библиотека КДНССД је изграђена без подршке за зироконф."
