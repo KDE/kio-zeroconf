@@ -14,8 +14,8 @@ msgstr ""
 "X-Crowdin-Project: kdeorg\n"
 "X-Crowdin-Project-ID: 269464\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /kf5-trunk/messages/kio-zeroconf/kio5_zeroconf.pot\n"
-"X-Crowdin-File-ID: 40718\n"
+"X-Crowdin-File: /kf6-trunk/messages/kio-zeroconf/kio5_zeroconf.pot\n"
+"X-Crowdin-File-ID: 59730\n"
 
 #: dnssd.cpp:47
 #, kde-format
