@@ -1,18 +1,20 @@
 # SPDX-FileCopyrightText: 2005, 2007, 2008 Thomas Reitelbach <tr@erdfunkstelle.de>
 # SPDX-FileCopyrightText: 2017 Burkhard Lück <lueck@hube-lueck.de>
+# SPDX-FileCopyrightText: 2025 Philipp Kiemle <l10n.daphipz@fastmail.de>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio5_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 16:18+0000\n"
-"PO-Revision-Date: 2017-09-25 14:36+0100\n"
-"Last-Translator: Burkhard Lück <lueck@hube-lueck.de>\n"
+"PO-Revision-Date: 2025-11-11 22:40+0100\n"
+"Last-Translator: Philipp Kiemle <l10n.daphipz@fastmail.de>\n"
 "Language-Team: German <kde-i18n-de@kde.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #: dnssd.cpp:47
 #, kde-format
@@ -20,16 +22,14 @@ msgid "FTP servers"
 msgstr "FTP-Server"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "WebDav-Ordner"
+msgstr "Entfernter WebDAV-Ordner"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "WebDav-Ordner"
+msgstr "Entfernter WebDAVS-Ordner"
 
 #: dnssd.cpp:53
 #, kde-format
@@ -44,7 +44,7 @@ msgstr "FISH-Speichermedien"
 #: dnssd.cpp:56
 #, kde-format
 msgid "NFS remote directory"
-msgstr "NFS-Ordner"
+msgstr "Entfernter NFS-Ordner"
 
 #: dnssd.cpp:154
 #, kde-format
@@ -54,8 +54,7 @@ msgstr "Der ZeroConf-Dienst (mdnsd) läuft derzeit nicht."
 #: dnssd.cpp:156
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
-msgstr ""
-"Die Bibliothek KDNSSD wurde ohne Unterstützung für ZeroConf installiert."
+msgstr "Die Bibliothek KDNSSD wurde ohne ZeroConf-Unterstützung erstellt."
 
 #~ msgid "Protocol name"
 #~ msgstr "Protokollname"
