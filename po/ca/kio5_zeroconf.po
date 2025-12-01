@@ -62,9 +62,3 @@ msgstr "El dimoni Zeroconf (mdnsd) no s'està executant."
 msgid "The KDNSSD library has been built without Zeroconf support."
 msgstr ""
 "La biblioteca KDNSSD ha estat compilada sense la implementació del Zeroconf."
-
-#~ msgid "Protocol name"
-#~ msgstr "Nom del protocol"
-
-#~ msgid "Socket name"
-#~ msgstr "Nom del sòcol"
