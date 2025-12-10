@@ -1,21 +1,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Vít Pelčák <vit@pelcak.org>, 2010, 2017.
+# SPDX-FileCopyrightText: 2010, 2017, 2025 Vít Pelčák <vit@pelcak.org>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:51+0000\n"
-"PO-Revision-Date: 2017-08-29 13:43+0100\n"
-"Last-Translator: Vít Pelčák <vit@pelcak.org>\n"
+"PO-Revision-Date: 2025-12-02 11:19+0100\n"
+"Last-Translator: Vit Pelcak <vit@pelcak.org>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 25.08.3\n"
 
 #: dnssd.cpp:47
 #, kde-format
@@ -25,12 +25,12 @@ msgstr "FTP servery"
 #: dnssd.cpp:49
 #, kde-format
 msgid "WebDAV remote directory"
-msgstr ""
+msgstr "Vzdálený adresář WebDAV"
 
 #: dnssd.cpp:51
 #, kde-format
 msgid "WebDAVS remote directory"
-msgstr ""
+msgstr "Vzdálený adresář WebDAVS"
 
 #: dnssd.cpp:53
 #, kde-format
