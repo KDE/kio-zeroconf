@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the kdenetwork package.
 # Mikko Ikola <ikola@iki.fi>, 2005.
 # Jorma Karvonen <karvonen.jorma@gmail.com>, 2010.
-# Tommi Nieminen <translator@legisign.org>, 2017.
+# SPDX-FileCopyrightText: 2017, 2025 Tommi Nieminen <translator@legisign.org>
 #
 # KDE Finnish translation sprint participants:
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 16:18+0000\n"
-"PO-Revision-Date: 2017-12-11 18:59+0200\n"
+"PO-Revision-Date: 2025-11-30 15:37+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
 "Language: fi\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: dnssd.cpp:47
 #, kde-format
@@ -26,16 +27,14 @@ msgid "FTP servers"
 msgstr "FTP-palvelimet"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "WebDav-etähakemisto"
+msgstr "WebDav-etäkansio"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "WebDav-etähakemisto"
+msgstr "WebDav-etäkansio"
 
 #: dnssd.cpp:53
 #, kde-format
