@@ -2,19 +2,20 @@
 #
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2006, 2008.
 # Jeff Huang <s8321414@gmail.com>, 2017.
+# SPDX-FileCopyrightText: 2026 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 16:18+0000\n"
-"PO-Revision-Date: 2017-09-27 08:44+0800\n"
-"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2026-01-15 01:19+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 26.03.70\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: dnssd.cpp:47
@@ -23,16 +24,14 @@ msgid "FTP servers"
 msgstr "FTP 伺服器"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
-msgstr "WebDav 遠端目錄"
+msgstr "WebDAV 遠端目錄"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "WebDav 遠端目錄"
+msgstr "WebDAVS 遠端目錄"
 
 #: dnssd.cpp:53
 #, kde-format
