@@ -8,31 +8,30 @@ msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:51+0000\n"
-"PO-Revision-Date: 2013-09-08 07:05+0900\n"
-"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
+"PO-Revision-Date: 2026-04-01 09:10-0400\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #: dnssd.cpp:47
 #, kde-format
 msgid "FTP servers"
-msgstr "FTP مۇلازىمېتىرلىرى"
+msgstr "FTP مۇلازىمېتىرى"
 
 #: dnssd.cpp:49
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAV remote directory"
 msgstr "WebDav يىراقتىكى مۇندەرىجە"
 
 #: dnssd.cpp:51
-#, fuzzy, kde-format
-#| msgid "WebDav remote directory"
+#, kde-format
 msgid "WebDAVS remote directory"
-msgstr "WebDav يىراقتىكى مۇندەرىجە"
+msgstr "WebDAVS يىراقتىكى مۇندەرىجە"
 
 #: dnssd.cpp:53
 #, kde-format
@@ -52,9 +51,9 @@ msgstr "NFS يىراقتىكى مۇندەرىجە"
 #: dnssd.cpp:154
 #, kde-format
 msgid "The Zeroconf daemon (mdnsd) is not running."
-msgstr ""
+msgstr "Zeroconf نازارەتچىسى (mdnsd) ئىجرا قىلىنمايۋاتىدۇ."
 
 #: dnssd.cpp:156
 #, kde-format
 msgid "The KDNSSD library has been built without Zeroconf support."
-msgstr ""
+msgstr "مەزكۇر KDNSSD ئامبار Zeroconf نى قوللىمايدىغان قىلىپ ھاسىللىنىپتۇ."
