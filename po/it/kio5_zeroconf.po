@@ -1,7 +1,7 @@
 # translation of kio_zeroconf.po to Italian
 #
-# SPDX-FileCopyrightText: 2017, 2025 Luigi Toscano <luigi.toscano@tiscali.it>
 # Alessandro Astarita <aleast@capri.it>, 2005.
+# SPDX-FileCopyrightText: 2017, 2025 Luigi Toscano <luigi.toscano@tiscali.it>
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_zeroconf\n"
